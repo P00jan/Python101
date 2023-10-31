@@ -1,6 +1,7 @@
 """
 In python you can use either double or single quotes to define string to the variable
 String is the group of characters
+Strings are immutable so that means you cannot delete once it is modified, you can always replace it but never delete.
 """
 message = "Good Morning"
 print(message)
