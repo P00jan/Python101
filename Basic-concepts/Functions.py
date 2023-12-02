@@ -56,4 +56,25 @@ Enter a number to test: 9
 The number 9 is odd
 """
 
+"""
+Let's make a program where we are using functions to ask user about their income and then calculate the tax amount on it.
+We will by default use the NJ Tax criteria which is as follows also user will only provide the salary less than or equal to 10K$:
+Federal	10.00%	1.91%	
+FICA	7.65%	7.65%	
+State	1.40%	1.31%
+"""
+
+salary_amount = int(input("Enter your salary amount: "))
+Federal = 1.91%
+def main():
+    name = input("Enter your name: ")
+    if salary_amount > 10000:
+        print("Please enter a salary amount less than or equal to 10000:")
+    else:
+        return (salary_amount,name)
+main()
+
+def calculate():
+    
+    
 
