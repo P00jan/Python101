@@ -73,3 +73,14 @@ print(a, "\n",
       g, "\n",
       h, "\n",
       i)
+# This way you would be able to print the variables we used above to assign different data types.
+
+"""OPERATORS
+Operators are mathematical signs which can be used for different usecases. 
+   1. + : This sign is used to add or concate 2 values.
+   2. - : This sign is used to subtract 2 values.
+   3. * : This sign is used to multiply 2 values.
+   4. ** : This sign is used to do Power of a value.
+   5. / : This sign is used to perform division.(Would have the decimal value)
+   6. // : This sign is used to perform floor division (Won't leave any decimal value).
+   7. % : This sign is used to perform Percentage or get Remainder."""
