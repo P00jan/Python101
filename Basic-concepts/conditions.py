@@ -55,9 +55,13 @@ print("Loop ended")
 
 """Write a program to calculate the factorial of a given number using a for loop."""
 number = int(input("Enter the number: "))
-factorial = 0
+factorial = 1
 for i in range(1, number + 1):
     factorial *= i
 print(factorial)
 
-"""Explanation: we set the factorial to 1 so that we can multiply the """
+"""Explanation: we set the factorial to 1 so that we can multiply the i and save it in factorial,
+there is no logic here other than using 1 and number + 1 which is simply number starting from 1 and adding a limit to number+1 i.e 
+till the number itself eg: for 5 we have starting point 1 and ending point 6 (5+1) but it will count till 5. """
+
+"""Generate a multiplication table for a given number up to a certain range using nested for loops."""
